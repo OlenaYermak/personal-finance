@@ -12,6 +12,10 @@
     "glob": "^11.0.3",
     "vite": "^7.0.5",
     "vite-plugin-full-reload": "^1.2.0",
-    "vite-plugin-html-inject": "^1.1.2"
+    "vite-plugin-html-inject": "^1.1.2",
+    "vite-plugin-svg-sprite": "^0.6.3"
+  },
+  "dependencies": {
+    "modern-normalize": "^3.0.1"
   }
 }

@@ -1,20 +1,28 @@
-// vite.config.js
+
 import { defineConfig } from 'vite';
 import { glob } from 'glob';
 import injectHTML from 'vite-plugin-html-inject';
 import FullReload from 'vite-plugin-full-reload';
+import svgSpritePlugin from 'vite-plugin-svg-sprite'
+
 
 export default defineConfig({
-  root: '.', // бо index.html в корені
+  root: '.', 
   build: {
     outDir: 'dist',
     rollupOptions: {
-      input: glob.sync('./**/*.html'), // index.html + всі HTML в src/
+      input: glob.sync('./**/*.html'), 
     },
   },
   plugins: [
     injectHTML(),
     FullReload(['./**/*.html']),
+    svgSpritePlugin({
+      symbolId: 'icon-[name]',               // ID іконки буде icon-ім'я_файлу
+      include: ['src/assets/icons/**/*.svg'] // шлях до іконок для спрайта
+    }),
   ],
 });
+
+
 
