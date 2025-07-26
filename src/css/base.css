@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Public+Sans:wght@100..900&family=Work+Sans:wght@100..900&display=swap');
+
+body{
+    font-family: var(--font-family);
+    background: var(--color-beige-100);
+}

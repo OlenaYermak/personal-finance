@@ -1,0 +1,44 @@
+.balance-summary-list{
+    display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: row;
+gap: 24px;
+}
+
+
+.balance-summary-list-item{
+    display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 12px;
+
+border-radius: 12px;
+padding: 24px;
+background: var(--color-white);
+}
+
+.accent-bg{
+    background-color: var(--color-grey-900);
+}
+
+.balance-summary-label{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.5;
+color: var(--color-grey-500);
+}
+
+.balance-summary-value{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 32px;
+line-height: 1.2;
+color: var(--color-grey-900);
+}
+
+.accent-col{
+color: var(--color-white);
+}

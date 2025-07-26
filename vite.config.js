@@ -3,7 +3,7 @@ import { defineConfig } from 'vite';
 import { glob } from 'glob';
 import injectHTML from 'vite-plugin-html-inject';
 import FullReload from 'vite-plugin-full-reload';
-import svgSpritePlugin from 'vite-plugin-svg-sprite'
+import createSvgSpritePlugin from 'vite-plugin-svg-sprite';
 
 
 export default defineConfig({
@@ -17,9 +17,10 @@ export default defineConfig({
   plugins: [
     injectHTML(),
     FullReload(['./**/*.html']),
-    svgSpritePlugin({
-      symbolId: 'icon-[name]',               // ID іконки буде icon-ім'я_файлу
-      include: ['src/assets/icons/**/*.svg'] // шлях до іконок для спрайта
+    // 
+    createSvgSpritePlugin({
+      exportType: 'vanilla', 
+      include: '**/icons/*.svg'
     }),
   ],
 });

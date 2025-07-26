@@ -1,14 +1,29 @@
-<nav class="sidebar">
+<div class="sidebar">
+    <nav >
     <a href="/" class="logo">
-        <img src="/public/logo-large.svg" alt="FinanceApp Logo">
+        <img class="logo-icon" src="/public/logo-large.svg" alt="FinanceApp Logo">
     </a>
-    <ul class="nav-links">
-        <li><a href="/">
-             <svg class="icon"><use xlink:href="#icon-nav-overview"></use></svg>
-             Overview</a></li>
-        <li><a href="../pages/transactions.html">Transactions</a></li>
-        <li><a href="../pages/budgets.html">Budgets</a></li>
-        <li><a href="../pages/pots.html">Pots</a></li>
-        <li><a href="../pages/recurring.html">Recurring Bills</a></li>
+    <ul class="nav-links-list">
+        <li class="nav-links-list-item">
+            <a class="nav-link" href="/">
+             <svg class="icon"><use href="../../public/icons.svg#icon-nav-overview"></use></svg>
+             <span>Overview</span>
+            </a></li>
+        <li class="nav-links-list-item"><a class="nav-link" href="../pages/transactions.html">
+            <svg class="icon"><use href="../../public/icons.svg#icon-nav-transactions"></use></svg>
+            <span>Transactions</span></a></li>
+        <li class="nav-links-list-item"><a class="nav-link" href="../pages/budgets.html">
+            <svg class="icon"><use href="../../public/icons.svg#icon-nav-budgets"></use></svg>
+            <span>Budgets</span></a></li>
+        <li class="nav-links-list-item"><a class="nav-link" href="../pages/pots.html">
+            <svg class="icon"><use href="../../public/icons.svg#icon-nav-pots"></use></svg>
+            <span>Pots</span></a></li>
+        <li class="nav-links-list-item"><a class="nav-link" href="../pages/recurring.html">
+            <svg class="icon"><use href="../../public/icons.svg#icon-nav-recurring-bills"></use></svg>
+            <span>Recurring Bills</span></a></li>
     </ul>
 </nav>
+
+<button class="min-menu-btn"><svg class="icon"><use href="../../public/icons.svg#icon-minimize-menu"></use></svg>
+          Minimize Menu  </button>
+</div>
