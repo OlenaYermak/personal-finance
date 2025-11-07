@@ -1,0 +1,47 @@
+.recurring-bills{
+    max-width: 428px;
+}
+
+.recurring-bills-title{
+    margin-bottom: 32px;
+}
+
+.recurring-bills-list-item{
+   display: flex;
+   justify-content: space-between;
+        border-radius: 8px;
+        padding: 20px 16px;
+        background: var(--color-beige-100);
+}
+
+.recurring-bills-list-item:not(:last-child){
+    margin-bottom: 12px;
+}
+
+.recurring-bills-list-item:first-child{
+border-left: 4px solid var(--color-green);
+}
+
+.recurring-bills-list-item:nth-child(2) {
+border-left: 4px solid var(--color-yellow);
+}
+
+.recurring-bills-list-item:last-child{
+    border-left: 4px solid var(--color-cyan);
+}
+
+.recurring-bills-name{
+    font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.5;
+        color: var(--color-grey-500);
+}
+
+.recurring-bills-amount{
+    font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.5;
+        color: var(--color-grey-900);
+}

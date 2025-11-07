@@ -1,0 +1,225 @@
+.transactions-full{
+max-width: 1440px;
+}
+.transactions-header {
+    margin-bottom: 24px;
+}
+
+.transactions-controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.transactions-search {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.transactions-input {
+border: 1px solid var(--color-beige-500);
+    border-radius: 8px;
+    padding: 12px 20px;
+width: 320px;
+height: 45px;
+font-size: 14px;
+font-weight: 400;
+    line-height: 1.5;
+}
+
+.search-icon {
+    position: absolute;
+    right: 20px;
+    width: 16px;
+    height: 16px;
+    fill: var(--color-grey-900);
+}
+
+.transactions-filters {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.filter-group {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Стрілка як псевдоелемент */
+.filter-group::after {
+    content: '';
+    position: absolute;
+    right: 22px;
+    width: 11px;
+    height: 6px;
+    background: url('/public/icon-caret-down.svg') no-repeat center /contain;
+    pointer-events: none;
+}
+
+.filter-label {
+font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--color-grey-500);
+}
+
+.filter-select {
+    border: 1px solid var(--color-beige-500);
+        border-radius: 8px;
+        padding: 12px 52px 12px 20px;
+        
+        font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.5;
+            color: var(--color-grey-900);
+
+            appearance: none;
+                /* прибирає системну стрілку (Chrome, Safari, Edge) */
+                -moz-appearance: none;
+                /* для Firefox */
+                -webkit-appearance: none;
+                /* для старих Safari */
+}
+
+
+.transactions-table {
+    margin-bottom: 24px;
+}
+
+.transactions-table-head {
+
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1.5fr;
+column-gap: 32px;
+font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    color: var(--color-grey-500);
+ padding: 12px 16px;
+border-bottom: 1px solid var(--color-grey-100);
+}
+
+/* вирівнюємо останній елемент у гріді вправо */
+.transactions-table-head>*:last-child {
+    text-align: right;
+}
+.transactions-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1.5fr;
+    column-gap: 32px;
+    padding: 16px 16px 16px 16px;
+    border-bottom: 1px solid var(--color-grey-100);
+    align-items: center;
+}
+
+.transactions-row:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+.recipient {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.5;
+        color: var(--color-grey-900);
+}
+.recipient-img{
+    border-radius: 100%;
+}
+.category,
+.date{
+    font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.5;
+        color: var(--color-grey-500);
+}
+
+.amount {
+    text-align: right;
+    font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.5;
+        text-align: right;
+        color: var(--color-grey-900);
+}
+
+.amount.positive {
+    color: var(--color-green);;
+}
+
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-family);
+}
+
+.pagination-btn {
+
+    border: 1px solid var(--color-beige-500);
+        border-radius: 8px;
+        padding: 16px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+background: var(--color-white);
+font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--color-grey-900);
+
+}
+
+.pagination-icon {
+    width: 16px;
+    height: 16px;
+    fill: var(--color-grey-500);
+}
+
+.pagination-pages {
+    display: flex;
+    gap: 8px;
+}
+
+.pagination-page {
+    width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+border: 1px solid var(--color-beige-500);
+    border-radius: 8px;
+    padding: 16px;
+    background-color: var(--color-white);
+
+    font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.5;
+        color: var(--color-grey-900);
+    cursor: pointer;
+    
+}
+
+.pagination-page:hover {
+    background-color: var(--color-grey-900);
+    color: var(--color-white);
+}
+
+.pagination-page.active {
+    background-color: var(--color-grey-900);
+color: var(--color-white);
+}
+
