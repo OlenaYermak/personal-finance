@@ -1,0 +1,97 @@
+.expenses-chart-list-wrap-doub {
+    display: flex;
+    flex-direction: column;
+    /* gap: 16px; */
+    /* align-items: left; */
+}
+
+
+.expenses-chart-doub {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    position: relative;
+
+    background: conic-gradient(var(--color-green) 0% 5%,
+            /* Entertainment */
+            var(--color-cyan) 5% 80%,
+            /* Bills */
+            var(--color-yellow) 80% 90%,
+            /* Dining Out */
+            var(--color-navy) 90% 100%
+            /* Personal Care */
+        );
+
+
+        margin-bottom: 52px;
+        margin-right: auto;
+        margin-left: auto;
+}
+
+
+.section-title-link-wrap-doub{
+    margin-bottom: 24px;
+}
+
+.expenses-value {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--color-grey-900);
+}
+
+.expenses-limit {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    color: var(--color-grey-500);
+}
+
+
+
+
+.expenses-list-item-doub {
+    display: flex;
+    gap: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--color-grey-100);
+}
+
+.expenses-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.color-doub {
+   
+    height: 21px;
+}
+
+
+
+.expenses-list-label-doub {
+   
+    margin-bottom: 0px;
+}
+
+.spent{
+    font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.5;
+        color: var(--color-grey-900);
+}
+
+.limit{
+    font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.5;
+        color: var(--color-grey-500);
+}
