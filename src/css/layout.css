@@ -1,0 +1,10 @@
+.layout {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    min-height: 100vh;
+}
+
+.main-content {
+    padding: 32px;
+    max-width: 1140px;
+}
