@@ -23,22 +23,7 @@ background: var(--color-white);
     background-color: var(--color-grey-900);
 }
 
-.balance-summary-label{
-    font-family: var(--font-family);
-font-weight: 400;
-font-size: 14px;
-line-height: 1.5;
-color: var(--color-grey-500);
-}
 
-.balance-summary-value{
-    font-family: var(--font-family);
-font-weight: 700;
-font-size: 32px;
-line-height: 1.2;
-color: var(--color-grey-900);
-}
-
-.accent-col{
+.white-col{
 color: var(--color-white);
 }

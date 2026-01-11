@@ -30,18 +30,3 @@ border-left: 4px solid var(--color-yellow);
     border-left: 4px solid var(--color-cyan);
 }
 
-.recurring-bills-name{
-    font-family: var(--font-family);
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.5;
-        color: var(--color-grey-500);
-}
-
-.recurring-bills-amount{
-    font-family: var(--font-family);
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.5;
-        color: var(--color-grey-900);
-}

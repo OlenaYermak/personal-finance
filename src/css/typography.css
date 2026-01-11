@@ -1,9 +1,47 @@
-.page-title{
-        font-weight: 700;
+/* Display 
+   Основний акцентний стиль.
+   Використовується для:
+   – головного балансу
+   – заголовка сторінки
+*/
+
+.display{
         font-size: 32px;
+        font-weight: 700;
         line-height: 1.2;
         letter-spacing: 0px;
-        color: var(--color-grey-900);
         
-margin-bottom: 41px;
+        /* margin-bottom: 41px; */
+}
+
+.caption{
+       
+                /* font-weight: 400; */
+                font-size: 14px;
+                line-height: 1.5;
+                letter-spacing: 0px;
+                color: var(--color-grey-500);
+}
+
+.value {
+
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.5;
+        letter-spacing: 0px;
+}
+
+.label {
+       
+        font-size: 12px;
+        line-height: 1.5;
+        letter-spacing: 0px;
+        color: var(--color-grey-500);
+}
+
+.heading {
+      
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0px;
 }

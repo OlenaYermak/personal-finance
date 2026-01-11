@@ -33,21 +33,6 @@ flex-direction: column;
 gap: 11px;
 }
 
-.total-saved-label{
-    font-family: var(--font-family);
-font-weight: 400;
-font-size: 14px;
-line-height: 1.5;
-color: var(--color-grey-500);
-}
-
-.total-saved-value{
-    font-family: var(--font-family);
-font-weight: 700;
-font-size: 32px;
-line-height: 1.2;
-color: var(--color-grey-900);
-}
 
 .pots-list{
     display: grid;
@@ -92,18 +77,4 @@ margin-right: 16px;
     background-color: var(--color-yellow);
 }
 
-.pots-label{
-    font-family: var(--font-family);
-font-weight: 400;
-font-size: 12px;
-line-height: 1.5;
-color: var(--color-grey-500);
-}
 
-.pots-value{
-    font-family: var(--font-family);
-font-weight: 700;
-font-size: 14px;
-line-height: 1.5;
-color: var(--color-grey-900);
-}
