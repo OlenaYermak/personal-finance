@@ -96,11 +96,6 @@ font-family: var(--font-family);
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1.5fr;
 column-gap: 32px;
-font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.5;
-    color: var(--color-grey-500);
  padding: 12px 16px;
 border-bottom: 1px solid var(--color-grey-100);
 }
@@ -118,6 +113,10 @@ border-bottom: 1px solid var(--color-grey-100);
     align-items: center;
 }
 
+.transactions-row>*:last-child {
+    text-align: right;
+}
+
 .transactions-row:last-child {
     border-bottom: none;
     padding-bottom: 0;
@@ -126,37 +125,11 @@ border-bottom: 1px solid var(--color-grey-100);
     display: flex;
     align-items: center;
     gap: 16px;
-    font-family: var(--font-family);
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.5;
-        color: var(--color-grey-900);
 }
 .recipient-img{
     border-radius: 100%;
 }
-.category,
-.date{
-    font-family: var(--font-family);
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 1.5;
-        color: var(--color-grey-500);
-}
 
-.amount {
-    text-align: right;
-    font-family: var(--font-family);
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.5;
-        text-align: right;
-        color: var(--color-grey-900);
-}
-
-.amount.positive {
-    color: var(--color-green);;
-}
 
 
 .pagination {

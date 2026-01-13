@@ -1,3 +1,6 @@
+/* @import "modern-normalize"; */
+/* @import url('../node_modules/modern-normalize/modern-normalize.css'); */
+@import "modern-normalize";
 
 @import url('./reset.css');
 @import url('./variables.css');
@@ -11,5 +14,5 @@
 @import url('./overview-transactions-section.css');
 @import url('./overview-recurring-bills-section.css');
 @import url('./transactions-full-section.css');
-@import url('./budgets-section-double.css');
+@import url('./budgets-summary-section.css');
 @import url('./budget-categories-overview-section.css');
