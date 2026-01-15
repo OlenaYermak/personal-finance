@@ -29,11 +29,6 @@
 }
 
 .budget-limit{
-    font-family: var(--font-family);
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.5;
-        color: var(--color-grey-500);
         margin-bottom: 16px;
 }
 

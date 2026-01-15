@@ -28,57 +28,39 @@
         margin-left: auto;
 }
 
-/* 
+
 .section-title-link-wrap-doub{
     margin-bottom: 24px;
-} */
-
-/* .expenses-value {
-    font-family: var(--font-family);
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 1.2;
-    text-align: center;
-    color: var(--color-grey-900);
-} */
-
-/* .expenses-limit {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.5;
-    color: var(--color-grey-500);
-} */
+}
 
 
 
-
-/* .expenses-list-item-doub {
+.expenses-list-item-doub {
     display: flex;
     gap: 16px;
     padding-bottom: 16px;
     border-bottom: 1px solid var(--color-grey-100);
-} */
+}
 
-/* .expenses-details{
+.expenses-details{
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-} */
+}
 
 
-/* .color-doub {
+.color-doub {
    
     height: 21px;
-} */
+}
 
 
 
-/* .expenses-list-label-doub {
+.expenses-list-label-doub {
    
     margin-bottom: 0px;
-} */
+}
 
 /* .spent{
     font-family: var(--font-family);
@@ -88,10 +70,3 @@
         color: var(--color-grey-900);
 } */
 
-/* .limit{
-    font-family: var(--font-family);
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 1.5;
-        color: var(--color-grey-500);
-} */
