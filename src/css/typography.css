@@ -39,9 +39,24 @@
         color: var(--color-grey-500);
 }
 
+.label-bold {
+
+        font-size: 12px;
+        line-height: 1.5;
+        letter-spacing: 0px;
+        font-weight: 700;
+}
+
 .heading {
       
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0px;
+}
+
+.heading-md{
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 1.5;
+                
 }

@@ -1,10 +1,11 @@
 :root {
 
     /* ========== COLORS =========== */
-	--color-white: #fff;
+	--color-white: #ffffff;
 	--color-beige-100: #f8f4f0;
 	--color-grey-900: #201f24;
 	--color-grey-500: #696868;
+	--color-grey-500-rgb: 105, 104, 104;
 	--color-grey-300: #b3b3b3;
 	--color-green: #277c78;
 	--color-grey-100: #f2f2f2;
