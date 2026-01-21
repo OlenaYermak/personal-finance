@@ -1,0 +1,29 @@
+.total-saved-amount-wrap{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 16px;
+}
+
+.pot-progress {
+    border-radius: 4px;
+    background: var(--color-beige-100);
+    width: 100%;
+    height: 8px;
+    margin-bottom: 13px;
+    position: relative;
+}
+
+.pot-progress-bar {
+    border-radius: 4px;
+    width: 162px;
+    height: 8px;
+    position: relative;
+}
+
+.percent-target-wrap{
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 42px;
+}
