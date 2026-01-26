@@ -1,19 +1,19 @@
-<section class="section transactions-full">
-    <div class="transactions-header">
+<section class="section rec-bills-list-section">
+    <div class="rec-bills-transactions-header">
 
-        <div class="transactions-controls">
-            <label class="transactions-search">
-                <input type="text" class="transactions-input" placeholder="Search bills"
+        <div class="rec-bills-transactions-controls">
+            <label class="rec-bills-transactions-search">
+                <input type="text" class="rec-bills-transactions-input caption" placeholder="Search bills"
                     aria-label="Search bills" />
-                <svg class="search-icon">
+                <svg class="rec-bills-search-icon">
                     <use href="/public/icons.svg#icon-search"></use>
                 </svg>
             </label>
 
-            <div class="transactions-filters">
-                <label class="filter-group">
-                    <span class="filter-label">Sort by:</span>
-                    <select class="filter-select" name="sort">
+        
+                <label class="rec-bills-filter-group">
+                    <span class="caption">Sort by:</span>
+                    <select class="rec-bills-filter-select caption" name="sort">
                         <option value="date-desc">Latest</option>
                         <option value="date-asc">Oldest</option>
                         <option value="name-asc">A → Z</option>
@@ -24,26 +24,32 @@
                 </label>
 
                
-            </div>
+            
         </div>
     </div>
 
-    <ul class="transactions-table">
-        <li class="transactions-table-head">
+    <ul class="rec-bills-transactions-table">
+        <li class="rec-bills-transactions-table-head">
             <span>Bill Title</span>
             <span>Due Date</span>
             <span>Amount</span>
         </li>
 
-        <li class="transactions-row">
+        <li class="rec-bills-transactions-row">
             <span class="recipient">
                 <img class="recipient-img" src="/public/image/spark-electric-solutions.jpg" alt="Spark Electric Solutions" width="40"
                     height="40" />Spark Electric Solutions</span>
-            <span class="date">Monthly -2nd</span>
+            <span class="date">Monthly -2nd
+                <span class="due-status due-status--warning">
+                    <svg class="icon-status-payment">
+                        <use href="../../../public/icons.svg#icon-bill-due"></use>
+                    </svg>
+                </span>
+            </span>
             <span class="amount">$100.00</span>
         </li>
 
-        <li class="transactions-row">
+        <li class="rec-bills-transactions-row">
             <span class="recipient">
                 <img class="recipient-img" src="/public/image/savory-bites-bistro.jpg" alt="Savory Bites Bistro Logo"
                     width="40" height="40" />Savory Bites Bistro</span>
@@ -51,7 +57,7 @@
             <span class="amount">-$55.50</span>
         </li>
 
-        <li class="transactions-row">
+        <li class="rec-bills-transactions-row">
             <span class="recipient">
                 <img class="recipient-img" src="/public/image/daniel-carter.jpg" alt="Daniel Carter" width="40"
                     height="40" />Daniel Carter</span>
@@ -59,7 +65,7 @@
             <span class="amount">- $42.30</span>
         </li>
 
-        <li class="transactions-row">
+        <li class="rec-bills-transactions-row">
             <span class="recipient">
                 <img class="recipient-img" src="/public/image/sun-park.jpg" alt="Sun Park" width="40" height="40" />Sun
                 Park</span>
@@ -67,7 +73,7 @@
             <span class="amount positive">+ $120.00</span>
         </li>
 
-        <li class="transactions-row">
+        <li class="rec-bills-transactions-row">
             <span class="recipient">
                 <img class="recipient-img" src="/public/image/urban-services-hub.jpg" alt="Urban Services Hub Logo"
                     width="40" height="40" />Urban Services Hub</span>
@@ -75,7 +81,7 @@
             <span class="amount">-$65.00</span>
         </li>
 
-        <li class="transactions-row">
+        <li class="rec-bills-transactions-row">
             <span class="recipient">
                 <img class="recipient-img" src="/public/image/liam-hughes.jpg" alt="Liam Hughes" width="40"
                     height="40" />Liam Hughes</span>
@@ -83,7 +89,7 @@
             <span class="amount positive">+$65.75</span>
         </li>
 
-        <li class="transactions-row">
+        <li class="rec-bills-transactions-row">
             <span class="recipient">
                 <img class="recipient-img" src="/public/image/lily-ramirez.jpg" alt="Lily Ramirez" width="40"
                     height="40" />Lily Ramirez</span>
@@ -91,7 +97,7 @@
             <span class="amount positive">+$50.00</span>
         </li>
 
-        <li class="transactions-row">
+        <li class="rec-bills-transactions-row">
             <span class="recipient">
                 <img class="recipient-img" src="/public/image/ethan-clark.jpg" alt="Ethan Clark" width="40"
                     height="40" />Ethan Clark</span>
@@ -99,7 +105,7 @@
             <span class="amount">-$32.50</span>
         </li>
 
-        <li class="transactions-row">
+        <li class="rec-bills-transactions-row">
             <span class="recipient">
                 <img class="recipient-img" src="/public/image/james-thompson.jpg" alt="James Thompson" width="40"
                     height="40" />James Thompson</span>
@@ -107,7 +113,7 @@
             <span class="amount">-$5.00</span>
         </li>
 
-        <li class="transactions-row">
+        <li class="rec-bills-transactions-row">
             <span class="recipient">
                 <img class="recipient-img" src="/public/image/pixel-playground.jpg" alt="Pixel Playground Logo"
                     width="40" height="40" />Pixel Playground</span>

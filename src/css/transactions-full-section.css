@@ -22,9 +22,9 @@ border: 1px solid var(--color-beige-500);
     padding: 12px 20px;
 width: 320px;
 height: 45px;
-font-size: 14px;
+/* font-size: 14px;
 font-weight: 400;
-    line-height: 1.5;
+    line-height: 1.5; */
 }
 
 .search-icon {
@@ -59,23 +59,23 @@ font-weight: 400;
     pointer-events: none;
 }
 
-.filter-label {
+/* .filter-label {
 font-family: var(--font-family);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.5;
     color: var(--color-grey-500);
-}
+} */
 
 .filter-select {
     border: 1px solid var(--color-beige-500);
         border-radius: 8px;
         padding: 12px 52px 12px 20px;
         
-        font-family: var(--font-family);
+        /* font-family: var(--font-family);
             font-weight: 400;
             font-size: 14px;
-            line-height: 1.5;
+            line-height: 1.5; */
             color: var(--color-grey-900);
 
             appearance: none;

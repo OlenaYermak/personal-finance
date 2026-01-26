@@ -17,3 +17,6 @@
 @import url('./budgets-summary-section.css');
 @import url('./budgets-categories-overview-section.css');
 @import url('./pots-detailed-section.css');
+@import url('./recurring-bills-total-section.css');
+@import url('./recurring-bills-summary-section.css');
+@import url('./recurring-bills-list-section.css');
