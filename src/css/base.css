@@ -17,6 +17,7 @@ border-radius: 12px;
     padding: 24px;
 }
 
+
 .section-title-link-wrap{
     display: flex;
     align-items: baseline;
@@ -37,4 +38,9 @@ border-radius: 12px;
     height: 10px;
     width: 5px;
     fill: var(--color-grey-500);
+}
+
+.section-controls {
+
+    margin-bottom: 24px;
 }

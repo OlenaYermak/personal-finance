@@ -2,113 +2,17 @@
     max-width: 699px;
 }
 
-.rec-bills-transactions-header{
-    
-    margin-bottom: 24px;
-}
 
 .rec-bills-transactions-controls{
     display: flex;
         justify-content: space-between;
 }
 
-.rec-bills-transactions-search{
-    position: relative;
-        display: flex;
-        align-items: center;
-}
 
-.rec-bills-transactions-input {
-    border: 1px solid var(--color-beige-500);
-    border-radius: 8px;
-    padding: 12px 20px;
-    width: 320px;
-    height: 45px;
-    /* font-size: 14px;
-    font-weight: 400;
-    line-height: 1.5; */
-}
-
-.rec-bills-search-icon {
-    position: absolute;
-    right: 20px;
-    width: 16px;
-    height: 16px;
-    fill: var(--color-grey-900);
-}
-
-
-.rec-bills-filter-group {
-    position: relative;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-/* Стрілка як псевдоелемент */
-.rec-bills-filter-group::after {
-    content: '';
-    position: absolute;
-    right: 22px;
-    width: 11px;
-    height: 6px;
-    background: url('/public/icon-caret-down.svg') no-repeat center /contain;
-    pointer-events: none;
-}
-
-.rec-bills-filter-select {
-    border: 1px solid var(--color-beige-500);
-    border-radius: 8px;
-    padding: 12px 52px 12px 20px;
-
-    /* font-family: var(--font-family);
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 1.5; */
-    color: var(--color-grey-900);
-
-    appearance: none;
-    /* прибирає системну стрілку (Chrome, Safari, Edge) */
-    -moz-appearance: none;
-    /* для Firefox */
-    -webkit-appearance: none;
-    /* для старих Safari */
-}
-
-/* .transactions-table {
-    margin-bottom: 24px;
-} */
-
-.rec-bills-transactions-table-head {
-
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    column-gap: 32px;
-    padding: 12px 16px;
-    border-bottom: 1px solid var(--color-grey-100);
-}
-
-/* вирівнюємо останній елемент у гріді вправо */
-.rec-bills-transactions-table-head>*:last-child {
-    text-align: right;
-}
-
+.rec-bills-transactions-table-head,
 .rec-bills-transactions-row {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    column-gap: 32px;
-    padding: 16px 16px 16px 16px;
-    border-bottom: 1px solid var(--color-grey-100);
-    align-items: center;
-}
-
-.rec-bills-transactions-row>*:last-child {
-    text-align: right;
-}
-
-.rec-bills-transactions-row:last-child {
-    border-bottom: none;
-    padding-bottom: 0;
+    grid-template-columns: 3.19fr 1.2fr 1fr;
+    
 }
 
 .icon-status-payment{
