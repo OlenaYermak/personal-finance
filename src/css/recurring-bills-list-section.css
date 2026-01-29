@@ -15,7 +15,36 @@
     
 }
 
+.date-icon-wrap{
+    display: inline-flex;
+        align-items: center;
+        gap: 8px;
+}
+
+.text-color-green{
+    color: var(--color-green);
+}
+
 .icon-status-payment{
     height: 13px;
     width: 13px;
+    flex-shrink: 0;
+}
+
+.icon-bill-paid{
+    fill: var(--color-green);
+}
+
+.icon-bill-due{
+    fill: var(--color-red);
+}
+
+.rec-recipient {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.rec-recipient-img {
+    border-radius: 100%;
 }
