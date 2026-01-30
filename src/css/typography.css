@@ -1,62 +1,44 @@
-/* Display 
-   Основний акцентний стиль.
-   Використовується для:
-   – головного балансу
-   – заголовка сторінки
-*/
-
-.display{
+.text-display{
         font-size: 32px;
         font-weight: 700;
         line-height: 1.2;
-        letter-spacing: 0px;
         
-        /* margin-bottom: 41px; */
 }
 
-.caption{
-       
-                /* font-weight: 400; */
+.text-heading-lg {
+
+        font-size: 20px;
+        line-height: 1.2;
+}
+
+.text-heading-md {
+        font-weight: 700;
+        font-size: 16px;
+
+}
+
+.text-caption{
                 font-size: 14px;
-                line-height: 1.5;
-                letter-spacing: 0px;
                 color: var(--color-grey-500);
 }
 
-.value {
+.text-value {
 
         font-weight: 700;
         font-size: 14px;
-        line-height: 1.5;
-        letter-spacing: 0px;
 }
 
-.label {
+.text-label {
        
         font-size: 12px;
-        line-height: 1.5;
-        letter-spacing: 0px;
         color: var(--color-grey-500);
 }
 
-.label-bold {
+.text-label-bold {
 
         font-size: 12px;
-        line-height: 1.5;
-        letter-spacing: 0px;
         font-weight: 700;
 }
 
-.heading {
-      
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0px;
-}
 
-.heading-md{
-                font-weight: 700;
-                font-size: 16px;
-                line-height: 1.5;
-                
-}
+

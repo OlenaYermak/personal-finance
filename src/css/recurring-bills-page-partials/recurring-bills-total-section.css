@@ -1,5 +1,4 @@
 .rec-bills-section{
-    background-color: var(--color-grey-900);
     max-width: 337px;
 }
 
@@ -10,12 +9,9 @@
     margin-bottom: 32px;
 }
 
-.color-text{
-    color: var(--color-white);
-}
 
 .rec-bills-content{
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     gap: 12px;
 }

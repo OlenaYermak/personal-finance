@@ -1,0 +1,21 @@
+.balance-summary-list{
+    /* display: flex; */
+/* align-items: flex-start;
+justify-content: flex-start; */
+/* flex-direction: row; */
+gap: 24px;
+}
+
+
+.balance-summary-list-item{
+    /* display: flex; */
+/* align-items: flex-start;
+justify-content: flex-start; */
+/* flex-direction: column; */
+gap: 12px;
+
+/* border-radius: 12px;
+padding: 24px; */
+/* background: var(--color-white); */
+}
+

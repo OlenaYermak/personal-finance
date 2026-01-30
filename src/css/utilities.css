@@ -1,0 +1,47 @@
+/* ========= TEXT COLORS ========= */
+
+.text-white {
+    color: var(--color-white);
+}
+
+.text-red {
+    color: var(--color-red);
+}
+
+.text-green {
+    color: var(--color-green);
+}
+
+
+/* ========= BACKGROUND COLORS ========= */
+
+.bg-black{
+    background: var(--color-grey-900);
+}
+
+/* ========= FLEX ========= */
+
+.flex {
+    display: flex;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+

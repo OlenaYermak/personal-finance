@@ -21,9 +21,7 @@
         gap: 8px;
 }
 
-.text-color-green{
-    color: var(--color-green);
-}
+
 
 .icon-status-payment{
     height: 13px;

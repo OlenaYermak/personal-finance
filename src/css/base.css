@@ -2,8 +2,11 @@
 
 body{
     font-family: var(--font-family);
+    line-height: 1.5;
+        letter-spacing: 0;
     background: var(--color-beige-100);
     color: var(--color-grey-900);
+
 }
 
 .section{
@@ -15,6 +18,7 @@ padding: 32px;
 .card{
 border-radius: 12px;
     padding: 24px;
+    background: var(--color-white);
 }
 
 
@@ -43,4 +47,27 @@ border-radius: 12px;
 .section-controls {
 
     margin-bottom: 24px;
+}
+
+.btn-add-new{
+    border-radius: 8px;
+        padding: 16px;
+        background: var(--color-grey-900);
+        color: var(--color-white);
+        border: none;
+}
+
+.title-btn-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 42px;
+}
+
+.btn{
+    border-radius: 8px;
+        padding: 16px;
+        background: var(--color-beige-100);
+        border: none;
+
 }
