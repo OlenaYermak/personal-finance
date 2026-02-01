@@ -7,8 +7,8 @@
     border-radius: 12px;
 padding: 16px;
 
-display: flex;
-align-items: center;
+/* display: flex;
+align-items: center; */
 gap: 16px;
 
 max-width: 247px;
@@ -26,10 +26,10 @@ max-width: 247px;
 }
 
 .tot-sav-label-value-wrap{
-    display: flex;
+    /* display: flex; */
 align-items: flex-start;
 justify-content: flex-start;
-flex-direction: column;
+/* flex-direction: column; */
 gap: 11px;
 }
 
@@ -43,9 +43,9 @@ gap: 11px;
 .pots-list-item{
     position: relative;
     padding-left: 20px;
-    display: flex;
+    /* display: flex; */
 align-items: flex-start;
-flex-direction: column;
+/* flex-direction: column; */
 gap: 4px;
 }
 

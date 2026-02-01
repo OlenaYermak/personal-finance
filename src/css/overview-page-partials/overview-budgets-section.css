@@ -4,9 +4,9 @@
 
 
 .expenses-chart-list-wrap {
-    display: flex;
+    /* display: flex; */
     gap: 16px;
-    align-items: center;
+    /* align-items: center; */
 }
 
 
@@ -64,8 +64,8 @@ background: rgba(255, 255, 255, 0.25);
 
 
 .expenses-list {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     gap: 16px;
 }
 
@@ -99,8 +99,8 @@ border-radius: 8px;
 }
 
 .expenses-list-content {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     gap: 4px;
 }
 
