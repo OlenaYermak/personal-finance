@@ -19,6 +19,24 @@
     background: var(--color-grey-900);
 }
 
+/* ========= MARKER COLORS ========= */
+
+.marker-green {
+    --marker-color: var(--color-green);
+}
+
+.marker-blue {
+    --marker-color: var(--color-cyan);
+}
+
+.marker-yellow {
+    --marker-color: var(--color-yellow);
+}
+
+.marker-navy {
+    --marker-color: var(--color-navy);
+}
+
 /* ========= FLEX ========= */
 
 .flex {

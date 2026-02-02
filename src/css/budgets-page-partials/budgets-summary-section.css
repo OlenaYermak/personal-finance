@@ -3,7 +3,10 @@
     flex-direction: column;
 } */
 
-
+.expenses-chart-thumb{
+padding: 20px 62px;
+margin-bottom: 32px;
+}
 .expenses-chart-doub {
     width: 240px;
     height: 240px;
@@ -20,8 +23,6 @@
             /* Personal Care */
         );
 
-
-        margin-bottom: 52px;
         margin-right: auto;
         margin-left: auto;
 }
@@ -32,26 +33,44 @@
 }
 
 
-
 .expenses-list-item-doub {
-    display: flex;
-    gap: 16px;
-    padding-bottom: 16px;
+    position: relative;
+        padding: 16px 0 16px 16px;
     border-bottom: 1px solid var(--color-grey-100);
-}
-
-.expenses-details{
-    display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 100%;
 }
 
+.expenses-list-item-doub:first-child{
+    padding-top: 0;
+}
 
-.color-doub {
-   
+.expenses-list-item-doub:last-child{
+    padding-bottom: 0;
+        border-bottom: none;
+}
+
+.expenses-list-item-doub::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    /* top: 50%;
+    transform: translateY(-50%); */
+    width: 4px;
     height: 21px;
-}
+    border-radius: 8px;
+    background-color: var(--marker-color);
+} 
+
+
+/* .expenses-details{ 
+    display: flex; 
+     align-items: center; 
+     justify-content: space-between; 
+    width: 100%; 
+ } */
+
+
+
 
 
 
@@ -59,6 +78,14 @@
    
     margin-bottom: 0px;
 }
+
+
+
+
+
+
+
+
 
 
 

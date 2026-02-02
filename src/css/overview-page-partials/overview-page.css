@@ -1,0 +1,16 @@
+.overview-grid {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: 3.5fr 2.5fr;
+}
+
+
+.overview-summary {
+    grid-column: 1 / -1;
+}
+
+.overview-col-left,
+.overview-col-right {
+    display: grid;
+    gap: 24px;
+}

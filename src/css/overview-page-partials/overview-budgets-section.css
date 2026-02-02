@@ -5,6 +5,7 @@
 
 .expenses-chart-list-wrap {
     /* display: flex; */
+    padding: 31px 0;
     gap: 16px;
     /* align-items: center; */
 }

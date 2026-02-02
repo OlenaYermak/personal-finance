@@ -1,3 +1,9 @@
+.grid-pots{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
 .total-saved-amount-wrap{
     display: flex;
 justify-content: space-between;

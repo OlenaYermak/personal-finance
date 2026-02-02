@@ -1,8 +1,43 @@
-   <h1 class="text-display">Overview</h1> 
-    <load src="/src/partials/overview/overview-summary-section.html"/> 
-    <load src="/src/partials/overview/overview-pots-section.html"/>
-    <load src="/src/partials/overview/overview-budgets-section.html"/>
-    <load src="/src/partials/overview/overview-transactions-section.html"/>
-    <load src="/src/partials/overview/overview-recurring-bills-section.html"/> 
+   <header class="page-header">
+<h1 class="text-display">Overview</h1>
+   </header>
    
+  
+
+   <div class="overview-grid">
+
+     <div class="overview-summary">
+   <load src="/src/partials/overview/overview-summary-section.html" />
+</div>
+
+<div class="overview-col-left">
+<div class="overview-pots">
+   <load src="/src/partials/overview/overview-pots-section.html" />
+</div>
+
+<div class="overview-transactions">
+   <load src="/src/partials/overview/overview-transactions-section.html" />
+</div>
+
+</div>
+
+<div class="overview-col-right">
+<div class="overview-budgets">
+   <load src="/src/partials/overview/overview-budgets-section.html" />
+</div>
+
+<div class="overview-recurring">
+   <load src="/src/partials/overview/overview-recurring-bills-section.html" />
+</div>
+</div>
+
+
+
+   </div>
+  
    
+   <!-- <load src="/src/partials/overview/overview-summary-section.html" />
+         <load src="/src/partials/overview/overview-pots-section.html" />
+         <load src="/src/partials/overview/overview-budgets-section.html" />
+         <load src="/src/partials/overview/overview-transactions-section.html" />
+         <load src="/src/partials/overview/overview-recurring-bills-section.html" /> -->

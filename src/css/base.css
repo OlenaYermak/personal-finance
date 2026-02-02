@@ -9,6 +9,11 @@ body{
 
 }
 
+.page-header {
+    align-items: center;
+    margin-bottom: 42px;
+}
+
 .section{
     background: var(--color-white);
     border-radius: 12px;
@@ -57,12 +62,7 @@ border-radius: 12px;
         border: none;
 }
 
-.title-btn-wrap{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 42px;
-}
+
 
 .btn{
     border-radius: 8px;
