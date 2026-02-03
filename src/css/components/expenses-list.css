@@ -1,0 +1,14 @@
+.expenses-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.expenses-item {
+    display: flex;
+    align-items: stretch;
+    gap: 16px;
+    
+}
+
+

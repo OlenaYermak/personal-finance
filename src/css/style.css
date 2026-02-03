@@ -10,6 +10,9 @@
 @import url('./components/search.css');
 @import url('./components/filters.css');
 @import url('./components/table.css');
+@import url('./components/expenses-chart.css');
+@import url('./components/expenses-list.css');
+@import url('./components/marker.css');
 @import url('./sidebar.css');
 @import url('./overview-page-partials/overview-page.css');
 @import url('./overview-page-partials/overview-summary-section.css');

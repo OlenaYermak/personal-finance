@@ -63,3 +63,11 @@
     flex-direction: row;
 }
 
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.gap-4{
+gap: 4px;
+}

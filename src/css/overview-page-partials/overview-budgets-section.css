@@ -2,106 +2,16 @@
    max-width: 428px;
 }
 
+.chart-list-wrap {
 
-.expenses-chart-list-wrap {
-    /* display: flex; */
-    padding: 31px 0;
+    padding: 32px 0;
     gap: 16px;
-    /* align-items: center; */
+   
 }
 
-
-.expenses-chart {
-    width: 240px;
-    height: 240px;
-    border-radius: 50%;
-    position: relative;
-    background: conic-gradient(var(--color-green) 0% 5%,
-            /* Entertainment */
-            var(--color-cyan) 5% 80%,
-            /* Bills */
-            var(--color-yellow) 80% 90%,
-            /* Dining Out */
-            var(--color-navy) 90% 100%
-            /* Personal Care */
-        );
-    
-}
-
-.expenses-chart::before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 188px;
-    height: 188px;
-background: rgba(255, 255, 255, 0.25);
-    border-radius: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-    
-}
-
-.expenses-center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 162px;
-    height: 162px;
-    background: var(--color-white);
-    border-radius: 50%;
-    transform: translate(-50%, -50%);
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    z-index: 2;
-    gap: 8px;
-}
-
-
-
-
-.expenses-list {
-    /* display: flex;
-    flex-direction: column; */
-    gap: 16px;
-}
-
-.expenses-list-item{
-display: flex;
-gap: 16px;
-}
-
-
-.color {
-    display: inline-block;
-border-radius: 8px;
-    width: 4px;
-    height: 43px;
-}
-
-.color-green {
-    background: var(--color-green);
-}
-
-.color-blue {
-    background: var(--color-cyan);
-}
-
-.color-yellow {
-    background: var(--color-yellow);
-}
-
-.color-navy {
-    background: var(--color-navy);
-}
 
 .expenses-list-content {
-    /* display: flex;
-    flex-direction: column; */
+    
     gap: 4px;
 }
 

@@ -1,0 +1,43 @@
+.expenses-chart {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    position: relative;
+    margin-inline: auto;
+
+    background: conic-gradient(var(--color-green) 0% 5%,
+            var(--color-cyan) 5% 80%,
+            var(--color-yellow) 80% 90%,
+            var(--color-navy) 90% 100%);
+}
+
+
+.expenses-chart::before {
+    content: "";
+    position: absolute;
+    inset: 50%;
+    width: 188px;
+    height: 188px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.expenses-center {
+    position: absolute;
+    inset: 50%;
+    width: 162px;
+    height: 162px;
+    background: var(--color-white);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

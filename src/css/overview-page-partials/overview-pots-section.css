@@ -23,7 +23,7 @@ width: 247px;
 .total-saved-pots-list-wrap{
     display: flex;
     gap: 20px;
-    
+    align-items: center;
 }
 
 .tot-sav-label-value-wrap{
@@ -42,41 +42,9 @@ gap: 11px;
   gap: 16px;
 }
 
-.pots-list-item{
-    position: relative;
-    padding-left: 20px;
-    /* display: flex; */
-align-items: flex-start;
-/* flex-direction: column; */
-gap: 4px;
-}
 
-.pots-list-item::before{
-    content: "";
-  position: absolute;
-  border-radius: 8px;
-  top: 0;
-  left: 0;
-  width: 4px;
-  height: 100%;
-margin-right: 16px;
-  
-}
 
-.pots-list li:nth-child(1)::before {
-    background-color: var(--color-green);
-}
 
-.pots-list li:nth-child(2)::before {
-    background-color: var(--color-cyan);
-}
 
-.pots-list li:nth-child(3)::before {
-    background-color: var(--color-navy);
-}
-
-.pots-list li:nth-child(4)::before {
-    background-color: var(--color-yellow);
-}
 
 
