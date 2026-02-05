@@ -37,12 +37,3 @@
     fill: var(--color-red);
 }
 
-.rec-recipient {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-}
-
-.rec-recipient-img {
-    border-radius: 100%;
-}

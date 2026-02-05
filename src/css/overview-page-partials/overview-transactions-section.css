@@ -29,22 +29,9 @@
     border-bottom: 1px solid var(--color-grey-100);
 }
 
-.transaction-img-name-wrapper{
-    /* display: flex;
-    align-items: center; */
-    gap: 16px;
-}
-.transaction-img{
-    border-radius: 50%;
 
-}
 
-.transaction-amount-date-wrapper{
-/* display: flex; */
-/* flex-direction: column; */
-gap: 8px;
-align-items: flex-end;
-}
+
 
 
 
