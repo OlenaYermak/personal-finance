@@ -3,11 +3,6 @@
 } */
 
 
-.rec-bills-transactions-controls{
-    display: flex;
-        justify-content: space-between;
-}
-
 
 .rec-bills-transactions-table-head,
 .rec-bills-transactions-row {

@@ -1,0 +1,22 @@
+
+
+.list-divider>*:not(:last-child) {
+    border-bottom: 1px solid var(--color-grey-100);
+    padding-bottom: var(--list-divider-gap);
+    margin-bottom: var(--list-divider-gap);
+}
+
+
+
+
+.list-divider--sm {
+    --list-divider-gap: 12px;
+}
+
+.list-divider--md {
+    --list-divider-gap: 16px;
+}
+
+.list-divider--lg {
+    --list-divider-gap: 20px;
+}
