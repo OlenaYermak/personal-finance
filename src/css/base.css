@@ -14,17 +14,29 @@ body{
     margin-bottom: 42px;
 }
 
-.section{
+ .section{
     background: var(--color-white);
     border-radius: 12px;
 padding: 32px;
-}
-
+} 
 .card{
 border-radius: 12px;
     padding: 24px;
     background: var(--color-white);
+} 
+
+/* .card {
+    background: var(--color-white);
+    border-radius: 12px;
 }
+
+.card--lg {
+    padding: 32px;
+}
+
+.card--md {
+    padding: 24px;
+} */
 
 
 .section-title-link-wrap{

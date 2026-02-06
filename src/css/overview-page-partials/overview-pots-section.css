@@ -6,11 +6,6 @@
     background-color: var(--color-beige-100);
     border-radius: 12px;
 padding: 20px 16px;
-
-/* display: flex;
-align-items: center; */
-gap: 16px;
-
 width: 247px;
 }
 
@@ -20,26 +15,12 @@ width: 247px;
     height: 36px;
 }
 
-.total-saved-pots-list-wrap{
-    display: flex;
-    gap: 20px;
-    align-items: center;
-}
-
-.tot-sav-label-value-wrap{
-    /* display: flex; */
-align-items: flex-start;
-justify-content: flex-start;
-/* flex-direction: column; */
-gap: 11px;
-}
-
 
 .pots-list{
-    flex-grow: 1;
+
     display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 16px;
+  
 }
 
 

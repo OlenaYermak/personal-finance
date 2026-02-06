@@ -3,14 +3,6 @@ max-width: 1440px;
 }
 
 
-.transactions-filters {
-    /* display: flex;
-    align-items: center; */
-    gap: 24px;
-}
-
-
-
 .transactions-table-head,
 .transactions-row {
    

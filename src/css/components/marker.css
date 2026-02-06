@@ -1,6 +1,13 @@
-
 .marker-strip {
     width: 4px;
     border-radius: 8px;
     background: var(--marker-color);
+}
+
+.marker-circle{
+    display: block;
+        width: 16px;
+        height: 16px;
+        border-radius: 100%;
+        background: var(--marker-color);
 }

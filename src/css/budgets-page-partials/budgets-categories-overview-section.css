@@ -2,35 +2,6 @@
     max-width: 608px;
 }
 
-.budgets-categories-list {
-    /* display: flex;
-    flex-direction: column; */
-    gap: 24px;
-}
-
-.budgets-categories-list-item{
-    /* display: flex;
-    flex-direction: column; */
-    gap: 20px;
-}
-
-.accent-circle{
-    display: block;
-    width: 16px;
-    height: 16px;
-    border-radius: 100%;
-        /* background: var(--color-green); */
-}
-
-.budget-header{
-    /* display: flex;
-    align-items: center; */
-    gap: 16px;
-}
-
-.budget-limit{
-        margin-bottom: 16px;
-}
 
 .budget-progress{
     border-radius: 4px;
@@ -50,53 +21,11 @@
         top: 4px;
 }
 
-
-.budget-summary-list{
-    display: flex;
-    gap: 16px;
-}
-
-.budget-summary-item {
-    display: flex;
-    flex-grow: 1;
-}
-
-.accent-strip {
-    display: inline-block;
-    border-radius: 8px;
-    width: 4px;
-    height: 43px;
-    margin-right: 16px;
-}
-
-
-
-.color-blue {
-    background: var(--color-cyan);
-}
-
-.color-beige {
-    background: var(--color-beige-100);
-}
-
-.color-navy {
-    background: var(--color-navy);
-}
-
-
-.budget-summary-label{
-        margin-bottom: 4px;
-}
-
-
-
 .budget-recent{
     border-radius: 12px;
         padding: 20px;
         background: var(--color-beige-100);
 }
-
-
 
 .budget-divider-color>*:not(:last-child){
     

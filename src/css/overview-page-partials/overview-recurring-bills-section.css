@@ -2,13 +2,9 @@
     max-width: 428px;
 }
 
-.recurring-bills-title{
-    margin-bottom: 32px;
-}
+
 
 .recurring-bills-list-item{
-   /* display: flex;
-   justify-content: space-between; */
         border-radius: 8px;
         padding: 20px 16px;
         background: var(--color-beige-100);

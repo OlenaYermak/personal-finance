@@ -1,16 +1,16 @@
 <section class="budgets-section">
 
-    <ul class="flex-col budgets-categories-list">
-    <li class="flex-col budgets-categories-list-item section">
+    <ul class="flex flex-col gap-24">
+    <li class="flex flex-col gap-20 section">
     
-        <div class="flex-center budget-header">
-            <span class="accent-circle color-green"></span>
+        <div class="flex items-center gap-16">
+            <span class="marker-circle marker-green"></span>
             <h3 class="text-heading-lg">Entertainment</h3>
         </div>
     
 
-        <div class="budget-progress-wrap">
-<p class="text-caption budget-limit">Maximum of $50.00</p>
+        <div>
+<p class="text-caption mb-16">Maximum of $50.00</p>
 
 <!-- budget-progress — фон шкали, її повний розмір (100% ліміту) -->
 <div class="budget-progress">
@@ -19,20 +19,20 @@
 </div>
 
 
-<ul class="budget-summary-list">
-    <li class="budget-summary-item">
-        <span class="accent-strip color-green"></span>
-        <div class="label-value-wrap">
-            <p class="text-label budget-summary-label">Spent</p>
+<ul class="flex gap-16">
+    <li class="expenses-item flex-child-grow">
+        <span class="marker-strip marker-green"></span>
+        <div class="flex flex-col gap-4">
+            <p class="text-label">Spent</p>
             <p class="text-value">$15.00</p>
         </div>
         
     </li>
 
-    <li class="budget-summary-item">
-        <span class="accent-strip color-beige"></span>
-        <div class="label-value-wrap">
-            <p class="text-label budget-summary-label">Remaining</p>
+    <li class="expenses-item flex-child-grow">
+        <span class="marker-strip marker-beige"></span>
+        <div class="flex flex-col gap-4">
+            <p class="text-label">Remaining</p>
             <p class="text-value">$35.00</p>
         </div>
        
@@ -44,7 +44,7 @@
        
     
         <div class="budget-recent">
-            <div class="flex-between">
+            <div class="flex justify-between">
                 <h4 class="recent-list-title">Latest Spending</h4>
                 <a class="text-caption section-nav-link" href="#">See All <svg class="section-nav-link-icon">
                         <use href="../../public/icons.svg#icon-caret-right"></use>
@@ -52,7 +52,7 @@
             </div>
     
             <ul class="expenses-list list-divider list-divider--sm budget-divider-color">
-                <li class="flex-between">
+                <li class="flex justify-between">
                     <div class="transaction-avatar-group">
                         <img class="transaction-avatar" src="/public/image/james-thompson.jpg" alt="James Thompson" width="32">
                         <p class="text-label-bold">James Thompson</p>
@@ -62,7 +62,7 @@
                         <time class="text-label" datetime="2024-08-11">11 Aug 2024</time>
                     </div>
                 </li>
-                <li class="flex-between">
+                <li class="flex justify-between">
                     <div class="transaction-avatar-group">
                         <img class="transaction-avatar" src="/public/image/pixel-playground.jpg" alt="Pixel Playground" width="32">
                         <p class="text-label-bold">Pixel Playground</p>
@@ -73,7 +73,7 @@
                     </div>
                 </li>
 
-                <li class="flex-between">
+                <li class="flex justify-between">
                     <div class="transaction-avatar-group">
                         <img class="transaction-avatar" src="/public/image/rina-sato.jpg" alt="Rina Sato" width="32">
                         <p class="text-label-bold">Rina Sato</p>
@@ -90,16 +90,16 @@
     </li>
 
 
-    <li class="flex-col budgets-categories-list-item section">
+    <li class="flex flex-col gap-20 section">
     
-        <div class="flex-center budget-header">
-            <span class="accent-circle color-blue"></span>
+        <div class="flex items-center gap-16">
+            <span class="marker-circle marker-blue"></span>
             <h3 class="text-heading-lg">Bills</h3>
         </div>
     
     
         <div class="budget-progress-wrap">
-            <p class="text-caption budget-limit">Maximum of $750.00</p>
+            <p class="text-caption mb-16">Maximum of $750.00</p>
     
             <!-- budget-progress — фон шкали, її повний розмір (100% ліміту) -->
             <div class="budget-progress">
@@ -108,20 +108,20 @@
             </div>
     
     
-            <ul class="budget-summary-list">
-                <li class="budget-summary-item">
-                    <span class="accent-strip color-blue"></span>
-                    <div class="label-value-wrap">
-                        <p class="text-label budget-summary-label">Spent</p>
+            <ul class="flex gap-16">
+                <li class="expenses-item flex-child-grow">
+                    <span class="marker-strip marker-blue"></span>
+                    <div class="flex flex-col gap-4">
+                        <p class="text-label">Spent</p>
                         <p class="text-value">$150.00</p>
                     </div>
     
                 </li>
     
-                <li class="budget-summary-item">
-                    <span class="accent-strip color-beige"></span>
-                    <div class="label-value-wrap">
-                        <p class="text-label budget-summary-label">Remaining</p>
+                <li class="expenses-item flex-child-grow">
+                    <span class="marker-strip marker-beige"></span>
+                    <div class="flex flex-col gap-4">
+                        <p class="text-label">Remaining</p>
                         <p class="text-value">$600.00</p>
                     </div>
     
@@ -133,7 +133,7 @@
     
     
         <div class="budget-recent">
-            <div class="flex-between">
+            <div class="flex justify-between">
                 <h4 class="text-heading-md">Latest Spending</h4>
                 <a class="text-caption section-nav-link" href="#">See All <svg class="section-nav-link-icon">
                         <use href="../../public/icons.svg#icon-caret-right"></use>
@@ -141,7 +141,7 @@
             </div>
     
             <ul class="expenses-list list-divider list-divider--sm budget-divider-color">
-                <li class="flex-between">
+                <li class="flex justify-between">
                     <div class="transaction-avatar-group">
                         <img class="transaction-avatar" src="/public/image/spark-electric-solutions.jpg" alt="Spark Electric Solutions" width="32">
                         <p class="text-label-bold">Spark Electric Solutions</p>
@@ -152,7 +152,7 @@
                     </div>
                 </li>
     
-                <li class="flex-between">
+                <li class="flex justify-between">
                     <div class="transaction-avatar-group">
                         <img class="transaction-avatar" src="/public/image/rina-sato.jpg" alt="Rina Sato" width="32">
                         <p class="text-label-bold">Rina Sato</p>
@@ -163,7 +163,7 @@
                     </div>
                 </li>
 
-                <li class="flex-between">
+                <li class="flex justify-between">
                     <div class="transaction-avatar-group">
                         <img class="transaction-avatar" src="/public/image/aqua-flow-utilities.jpg" alt="Aqua Flow Utilities" width="32">
                         <p class="text-label-bold">Aqua Flow Utilities</p>
@@ -180,16 +180,16 @@
     </li>
         
            
-        <li class="flex-col budgets-categories-list-item section">
+        <li class="flex flex-col gap-20 section">
         
-            <div class="flex-center budget-header">
-                <span class="accent-circle color-yellow"></span>
+            <div class="flex items-center gap-16">
+                <span class="marker-circle marker-yellow"></span>
                 <h3 class="text-heading-lg">Dining Out</h3>
             </div>
         
         
             <div class="budget-progress-wrap">
-                <p class="text-caption budget-limit">Maximum of $75.00</p>
+                <p class="text-caption mb-16">Maximum of $75.00</p>
         
                 <!-- budget-progress — фон шкали, її повний розмір (100% ліміту) -->
                 <div class="budget-progress">
@@ -198,20 +198,20 @@
                 </div>
         
         
-                <ul class="budget-summary-list">
-                    <li class="budget-summary-item">
-                        <span class="accent-strip color-yellow"></span>
-                        <div class="label-value-wrap">
-                            <p class="text-label budget-summary-label">Spent</p>
+                <ul class="flex gap-16">
+                    <li class="expenses-item flex-child-grow">
+                        <span class="marker-strip marker-yellow"></span>
+                        <div class="flex flex-col gap-4">
+                            <p class="text-label">Spent</p>
                             <p class="text-value">$133.00</p>
                         </div>
         
                     </li>
         
-                    <li class="budget-summary-item">
-                        <span class="accent-strip color-beige"></span>
-                        <div class="label-value-wrap">
-                            <p class="text-label budget-summary-label">Remaining</p>
+                    <li class="expenses-item flex-child-grow">
+                        <span class="marker-strip marker-beige"></span>
+                        <div class="flex flex-col gap-4">
+                            <p class="text-label">Remaining</p>
                             <p class="text-value">$0</p>
                         </div>
         
@@ -223,7 +223,7 @@
         
         
             <div class="budget-recent">
-                <div class="flex-between">
+                <div class="flex justify-between">
                     <h4 class="text-heading-md">Latest Spending</h4>
                     <a class="text-caption section-nav-link" href="#">See All <svg class="section-nav-link-icon">
                             <use href="../../public/icons.svg#icon-caret-right"></use>
@@ -231,7 +231,7 @@
                 </div>
         
                 <ul class="expenses-list list-divider list-divider--sm budget-divider-color">
-                    <li class="flex-between">
+                    <li class="flex justify-between">
                         <div class="transaction-avatar-group">
                             <img class="transaction-avatar" src="/public/image/savory-bites-bistro.jpg"
                                 alt="Savory Bites Bistro" width="32">
@@ -243,7 +243,7 @@
                         </div>
                     </li>
         
-                    <li class="flex-between">
+                    <li class="flex justify-between">
                         <div class="transaction-avatar-group">
                             <img class="transaction-avatar" src="/public/image/ethan-clark.jpg" alt="Ethan Clark" width="32">
                             <p class="text-label-bold">Ethan Clark</p>
@@ -254,7 +254,7 @@
                         </div>
                     </li>
         
-                    <li class="flex-between">
+                    <li class="flex justify-between">
                         <div class="transaction-avatar-group">
                             <img class="transaction-avatar" src="/public/image/ella-phillips.jpg" alt="Ella Phillips"
                                 width="32">
@@ -273,16 +273,16 @@
             
         
 
-        <li class="flex-col budgets-categories-list-item section">
+        <li class="flex flex-col gap-20 section">
         
-            <div class="flex-center budget-header">
-                <span class="accent-circle color-navy"></span>
+            <div class="flex items-center gap-16">
+                <span class="marker-circle marker-navy"></span>
                 <h3 class="text-heading-lg">Personal Care</h3>
             </div>
         
         
             <div class="budget-progress-wrap">
-                <p class="text-caption budget-limit">Maximum of $100.00</p>
+                <p class="text-caption mb-16">Maximum of $100.00</p>
         
                 <!-- budget-progress — фон шкали, її повний розмір (100% ліміту) -->
                 <div class="budget-progress">
@@ -291,20 +291,20 @@
                 </div>
         
         
-                <ul class="budget-summary-list">
-                    <li class="budget-summary-item">
-                        <span class="accent-strip color-navy"></span>
-                        <div class="label-value-wrap">
-                            <p class="text-label budget-summary-label">Spent</p>
+                <ul class="flex gap-16">
+                    <li class="expenses-item flex-child-grow">
+                        <span class="marker-strip marker-navy"></span>
+                        <div class="flex flex-col gap-4">
+                            <p class="text-label">Spent</p>
                             <p class="text-value">$40.00</p>
                         </div>
         
                     </li>
         
-                    <li class="budget-summary-item">
-                        <span class="accent-strip color-beige"></span>
-                        <div class="label-value-wrap">
-                            <p class="text-label budget-summary-label">Remaining</p>
+                    <li class="expenses-item flex-child-grow">
+                        <span class="marker-strip marker-beige"></span>
+                        <div class="flex flex-col gap-4">
+                            <p class="text-label">Remaining</p>
                             <p class="text-value">$60.00</p>
                         </div>
         
@@ -316,7 +316,7 @@
         
         
             <div class="budget-recent">
-                <div class="flex-between">
+                <div class="flex justify-between">
                     <h4 class="text-heading-md">Latest Spending</h4>
                     <a class="text-caption section-nav-link" href="#">See All <svg class="section-nav-link-icon">
                             <use href="../../public/icons.svg#icon-caret-right"></use>
@@ -324,7 +324,7 @@
                 </div>
         
                 <ul class="expenses-list list-divider list-divider--sm budget-divider-color">
-                    <li class="flex-between">
+                    <li class="flex justify-between">
                         <div class="transaction-avatar-group">
                             <img class="transaction-avatar" src="/public/image/william-harris.jpg" alt="William Harris"
                                 width="32">
@@ -336,7 +336,7 @@
                         </div>
                     </li>
         
-                    <li class="flex-between">
+                    <li class="flex justify-between">
                         <div class="transaction-avatar-group">
                             <img class="transaction-avatar" src="/public/image/serenity-spa-and-wellness.jpg" alt="Serenity Spa & Wellness" width="32">
                             <p class="text-label-bold">Serenity Spa & Wellness</p>
@@ -347,7 +347,7 @@
                         </div>
                     </li>
         
-                    <li class="flex-between">
+                    <li class="flex justify-between">
                         <div class="transaction-avatar-group">
                             <img class="transaction-avatar" src="/public/image/serenity-spa-and-wellness.jpg" alt="Serenity Spa & Wellness" width="32">
                             <p class="text-label-bold">Serenity Spa & Wellness</p>

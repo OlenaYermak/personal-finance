@@ -4,12 +4,6 @@
     gap: 24px;
 }
 
-.total-saved-amount-wrap{
-    display: flex;
-justify-content: space-between;
-align-items: center;
-margin-bottom: 16px;
-}
 
 .pot-progress {
     border-radius: 4px;
@@ -27,18 +21,4 @@ margin-bottom: 16px;
     position: relative;
 }
 
-.percent-target-wrap{
-    display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 42px;
-}
- .btn-wrap{
-    display: flex;
-    gap: 16px;
-    width: 100%;
- }
 
- .color-purple{
-    background: var(--color-purple);
- }
