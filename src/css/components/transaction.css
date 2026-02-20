@@ -1,8 +1,19 @@
+/*===== MOBILE STYLES ======*/
+
 .transaction-avatar-group {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 12px;
 }
+/*===== MOBILE STYLES end======*/
+
+@media screen and (min-width: 768px){
+.transaction-avatar-group {
+        
+        gap: 16px;
+    }
+}
+
 
 .transaction-avatar {
     border-radius: 50%;

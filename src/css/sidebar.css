@@ -1,13 +1,116 @@
-.sidebar{
-    border-radius: 0 16px 16px 0;
-padding: 40px 0px 58px 32px;
+.sidebar {
     background: var(--color-grey-900);
-    max-width: 300px;
+    border-radius: 8px 8px 0 0;
+        padding: 8px 16px 0px;
 }
 
-.logo-icon{
-    margin-bottom: 64px;;
+.sidebar nav {
+    width: 100%;
 }
+
+.logo,
+.min-menu-btn {
+    display: none;
+}
+
+.nav-links-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.nav-links-list-item {
+    padding: 0;
+}
+
+
+.nav-link span {
+    display: none;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    fill: var(--color-grey-300);
+}
+
+/* ==========TABLET START================ */
+@media (min-width: 768px) {
+
+.nav-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 4px;
+    color: var(--color-grey-300);
+}
+    .nav-link span {
+        display: block;
+        font-size: 12px;
+    }
+
+    }  
+/* ==========TABLET END================ */
+
+/* ==========DESKTOP START================ */
+
+
+@media (min-width: 1440px) {
+
+
+    .sidebar {
+        /* grid-row: auto; */
+        padding: 40px 0 58px 32px;
+        border-radius: 0 16px 16px 0;
+        max-width: 300px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .logo {
+        display: block;
+        margin-bottom: 64px;
+    }
+
+    .min-menu-btn {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        background: transparent;
+        border: none;
+        color: var(--color-grey-300);
+    }
+
+    .nav-links-list {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+    }
+
+    .nav-links-list-item {
+        padding: 16px 0;
+    }
+
+    .nav-link {
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 16px;
+    }
+
+    .nav-link span {
+        display: inline;
+    }
+}
+
+
+
+/* 
+
+
 
 .nav-links-list{
     margin-bottom: 528px;;
@@ -47,4 +150,6 @@ align-items: center;
 justify-content: flex-start;
 flex-direction: row;
 gap: 16px;
-}
+} */
+
+/* ==========DESKTOP END================ */

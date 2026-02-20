@@ -1,8 +1,62 @@
-.transactions-table-head,
-.transactions-row {
-   
-    grid-template-columns: 4.28fr 1.2fr 1.2fr 2fr;
+/* =====MOBILE STYLES===== */
+.transactions-table-head{
+    display: none;
 }
 
+.transactions-row {
+
+grid-template-columns: 32px 1fr auto;
+    grid-template-areas:
+        "avatar name amount"
+            "avatar category date";
+
+    gap: 4px;
+    align-items: center;
+}
+
+
+.table-row> :nth-child(1) {
+    grid-area: avatar;
+}
+
+.table-row> :nth-child(2) {
+    grid-area: category;
+}
+
+.table-row> :nth-child(3) {
+    grid-area: date;
+}
+
+.table-row> :nth-child(4) {
+    grid-area: amount;
+}
+/* =====MOBILE STYLES end===== */
+
+
+
+/* .transactions-row {
+   
+    grid-template-columns: 4.28fr 1.2fr 1.2fr 2fr;
+} */
+
+.button-control-wrapper{
+    display: flex;
+    gap: 24px;
+}
+
+
+
+@media (max-width: 767px) {
+    .filters-wrapper{
+        display: none;
+    }
+}
+
+
+@media (min-width: 768px){
+    .button-control-wrapper{
+    display: none;
+    }
+}
 
 

@@ -1,7 +1,7 @@
 <section class="section transactions-full">
     <div class="section-controls">
 
-        <div class="flex justify-between">
+        <div class="flex justify-between gap-24 items-center">
             <label class="search">
                 <input type="text" class="search-input text-caption" placeholder="Search transaction"
                     aria-label="Search transaction" />
@@ -10,32 +10,51 @@
                 </svg>
             </label>
 
-            <div class="flex items-center gap-24">
-                <label class="filter-group">
-                    <span class="text-caption">Sort by:</span>
-                    <select class="filter-select" name="sort">
-                        <option value="date-desc">Latest</option>
-                        <option value="date-asc">Oldest</option>
-                        <option value="name-asc">A → Z</option>
-                        <option value="name-desc">Z → A</option>
-                        <option value="amount-desc">Highest</option>
-                        <option value="amount-asc">Lowest</option>
-                    </select>
-                </label>
+            <!-- MOBILE ICON BUTTONS -->
+             <div class="button-control-wrapper">
+<button class="icon-btn mobile-only" aria-label="Sort transactions">
+    <svg class="control-icon">
+        <use href="/public/icons.svg#icon-sort-mobile"></use>
+    </svg>
+</button>
 
-                <label class="filter-group">
-                    <span class="text-caption">Category:</span>
-                    <select class="filter-select caption" name="category">
-                        <option value="all-transactions">All Transactions</option>
-                        <option value="entertainment">Entertainment</option>
-                        <option value="bills">Bills</option>
-                        <option value="groceries">Groceries</option>
-                        <option value="dining-out">Dining Out</option>
-                        <option value="transportation">Transportation</option>
-                        <option value="personal-care">Personal Care</option>
-                    </select>
-                </label>
+<button class="icon-btn mobile-only" aria-label="Filter by category">
+    <svg class="control-icon">
+        <use href="/public/icons.svg#icon-filter-mobile"></use>
+    </svg>
+</button>
+             </div>
+            
+
+            <div class="filters-wrapper">
+                <div class="flex items-center gap-24">
+                    <label class="filter-group">
+                        <span class="text-caption">Sort by:</span>
+                        <select class="filter-select" name="sort">
+                            <option value="date-desc">Latest</option>
+                            <option value="date-asc">Oldest</option>
+                            <option value="name-asc">A → Z</option>
+                            <option value="name-desc">Z → A</option>
+                            <option value="amount-desc">Highest</option>
+                            <option value="amount-asc">Lowest</option>
+                        </select>
+                    </label>
+                
+                    <label class="filter-group">
+                        <span class="text-caption">Category:</span>
+                        <select class="filter-select caption" name="category">
+                            <option value="all-transactions">All Transactions</option>
+                            <option value="entertainment">Entertainment</option>
+                            <option value="bills">Bills</option>
+                            <option value="groceries">Groceries</option>
+                            <option value="dining-out">Dining Out</option>
+                            <option value="transportation">Transportation</option>
+                            <option value="personal-care">Personal Care</option>
+                        </select>
+                    </label>
+                </div>
             </div>
+            
         </div>
     </div>
 

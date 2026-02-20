@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Public+Sans:wght@100..900&family=Work+Sans:wght@100..900&display=swap');
 
+
+/* ==========MOBILE STYLE ===============*/
+
+ .section {
+     background: var(--color-white);
+     border-radius: 12px;
+     padding: 24px 20px;
+ }
+
+ /* ==========MOBILE end ===============*/
+
 body{
     font-family: var(--font-family);
     line-height: 1.5;
@@ -14,29 +25,15 @@ body{
     margin-bottom: 42px;
 }
 
- .section{
-    background: var(--color-white);
-    border-radius: 12px;
-padding: 32px;
-} 
+
+
+
 .card{
 border-radius: 12px;
     padding: 24px;
     background: var(--color-white);
 } 
 
-/* .card {
-    background: var(--color-white);
-    border-radius: 12px;
-}
-
-.card--lg {
-    padding: 32px;
-}
-
-.card--md {
-    padding: 24px;
-} */
 
 
 .section-title-link-wrap{
@@ -83,3 +80,39 @@ border-radius: 12px;
         border: none;
 
 }
+
+.control-icon{
+    width: 15px;
+    height: 15px;
+
+}
+
+
+    
+.mobile-only {
+        display: block;
+    }
+    
+
+
+
+.icon-btn{
+    background: transparent;
+    padding: 0;
+        border: none;
+        cursor: pointer;
+        width: 20px;
+            height: 20px;
+            display: inline-flex;
+                align-items: center;
+                justify-content: center;
+}
+
+/* ==========TABLET STYLES========== */
+@media screen and (min-width: 768px) {
+.section {
+        
+        padding: 32px;
+    }
+}
+/* ==========TABLET STYLES end========== */

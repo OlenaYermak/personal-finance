@@ -1,16 +1,45 @@
 .overview-grid {
     display: grid;
     gap: 24px;
-    grid-template-columns: 3.5fr 2.5fr;
-}
 
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "summary"
+        "left"
+        "right";
+}
 
 .overview-summary {
-    grid-column: 1 / -1;
+    grid-area: summary;
+    margin-bottom: 8px;
 }
 
-.overview-col-left,
-.overview-col-right {
+.overview-col-left {
+    grid-area: left;
     display: grid;
-    gap: 24px;
+    gap: 16px;
+}
+
+.overview-col-right {
+    grid-area: right;
+    display: grid;
+    gap: 16px;
+}
+
+@media (min-width: 768px) {
+
+    .overview-col-left,
+    .overview-col-right {
+        gap: 24px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .overview-grid {
+        grid-template-columns: 3.5fr 2.5fr;
+
+        grid-template-areas:
+            "summary summary"
+            "left right";
+    }
 }
