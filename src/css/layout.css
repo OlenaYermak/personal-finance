@@ -6,7 +6,9 @@
 }
 
 .main-content {
+    width: 100%;
     max-width: 375px;
+    margin-inline: auto;
     padding: 24px 16px;
 }
 
@@ -39,5 +41,8 @@
 }
    
 }
+
+
+
 
 
