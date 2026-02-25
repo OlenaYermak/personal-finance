@@ -9,6 +9,12 @@
      padding: 24px 20px;
  }
 
+ .card {
+     border-radius: 12px;
+     padding: 20px;
+     background: var(--color-white);
+ }
+
  /* ==========MOBILE end ===============*/
 
 body{
@@ -24,15 +30,6 @@ body{
     align-items: center;
     margin-bottom: 42px;
 }
-
-
-
-
-.card{
-border-radius: 12px;
-    padding: 24px;
-    background: var(--color-white);
-} 
 
 
 
@@ -111,8 +108,11 @@ border-radius: 12px;
 /* ==========TABLET STYLES========== */
 @media screen and (min-width: 768px) {
 .section {
-        
         padding: 32px;
     }
+
+        .card {
+            padding: 24px;
+        }
 }
 /* ==========TABLET STYLES end========== */
