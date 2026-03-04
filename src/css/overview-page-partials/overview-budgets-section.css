@@ -1,12 +1,25 @@
-/* .expenses {
-   max-width: 428px;
-} */
-
 .chart-list-wrap {
-
-    padding: 32px 0;
+flex-direction: column;
+    padding: 8px 0;
     gap: 16px;
    
 }
 
+@media (max-width: 767px){
+.chart-list-wrap .expenses-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+
+@media (min-width: 768px) {
+    .chart-list-wrap {
+            flex-direction: row;
+            padding: 32px 0;
+           
+        }
+
+}
 
