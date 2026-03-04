@@ -1,12 +1,13 @@
-/* .pots-overview{
-    max-width: 608px;
-} */
+.pots-content {
+    flex-direction: column;
+    align-items: stretch;
+}
 
 .total-saved-wrap{
     background-color: var(--color-beige-100);
     border-radius: 12px;
 padding: 20px 16px;
-width: 247px;
+width: 100%;
 }
 
 .pots-icon{
@@ -23,7 +24,23 @@ width: 247px;
   
 }
 
+@media (min-width: 768px) {
+    .pots-content {
+        flex-direction: row;
+        align-items: center;
+    }
 
+          .total-saved-wrap {
+              width: auto;
+            flex-grow: 0;
+                flex-shrink: 0;
+                flex-basis: 247px;
+          }
+
+                  .pots-list {
+                      flex: 1;
+                  }
+}
 
 
 
