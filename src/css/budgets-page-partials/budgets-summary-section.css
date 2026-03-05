@@ -1,12 +1,29 @@
-
+.chart-list-wrapper{
+    flex-direction: column;
+    gap:32px;
+}
 .expenses-chart-thumb{
-padding: 20px 62px;
-margin-bottom: 32px;
+padding: 20px 31.5px;
+}
+
+@media screen and (min-width: 768px){
+.expenses-chart-thumb {
+        padding: 20px 28px;
+    }
 }
 
 
+@media screen and (min-width:768px) and (max-width:1439px) {
+    .chart-list-wrapper {
+        flex-direction: row;
+    }
+}
 
-
+@media screen and (min-width: 1440px){
+.expenses-chart-thumb {
+        padding: 20px 62px;
+    }
+}
 
 
 

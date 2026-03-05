@@ -1,5 +1,12 @@
 .grid-budgets{
     display: grid;
-    grid-template-columns: 2.5fr 3.5fr;
+    grid-template-columns: 1fr;
     gap: 24px;
+}
+
+@media screen and (min-width: 1440px){
+.grid-budgets {
+       
+        grid-template-columns: 2.5fr 3.5fr;
+    }
 }
