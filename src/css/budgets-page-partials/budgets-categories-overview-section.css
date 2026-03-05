@@ -1,7 +1,11 @@
-.budgets-section{
+/* .budgets-section{
     max-width: 608px;
+} */
+@media screen and (max-width: 767px) {
+    .avatar {
+display: none;
+    }
 }
-
 
 .budget-progress{
     border-radius: 4px;
