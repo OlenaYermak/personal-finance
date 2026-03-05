@@ -6,7 +6,7 @@
 .table-head,
 .table-row {
     display: grid;
-    column-gap: 32px;
+    /* column-gap: 32px; */
     
 }
 
@@ -15,10 +15,10 @@
     padding-inline: 16px; /* ліво+право */
 }
 
-.table-row {
+/* .table-row {
     padding-inline: 16px;
     align-items: center;
-}
+} */
 
 /* вирівнюємо останній елемент у гріді вправо */
 .table-head>*:last-child,
@@ -26,3 +26,17 @@
     text-align: right;
 }
 
+@media screen and (min-width: 768px){
+
+    .table-head,
+        .table-row {
+            /* display: grid; */
+            column-gap: 32px;
+    
+        }
+
+                .table-row {
+                    padding-inline: 16px;
+                    align-items: center;
+                }
+}

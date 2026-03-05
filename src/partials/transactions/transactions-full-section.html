@@ -3,7 +3,7 @@
 
         <div class="flex justify-between gap-24 items-center">
             <label class="search">
-                <input type="text" class="search-input text-caption" placeholder="Search transaction"
+                <input type="text" class="transaction-search search-input text-caption" placeholder="Search transaction"
                     aria-label="Search transaction" />
                 <svg class="search-icon">
                     <use href="/public/icons.svg#icon-search"></use>
@@ -30,7 +30,7 @@
                 <div class="flex items-center gap-24">
                     <label class="filter-group">
                         <span class="text-caption">Sort by:</span>
-                        <select class="filter-select" name="sort">
+                        <select class="filter-select text-caption" name="sort">
                             <option value="date-desc">Latest</option>
                             <option value="date-asc">Oldest</option>
                             <option value="name-asc">A → Z</option>
@@ -42,7 +42,7 @@
                 
                     <label class="filter-group">
                         <span class="text-caption">Category:</span>
-                        <select class="filter-select caption" name="category">
+                        <select class="filter-select text-caption" name="category">
                             <option value="all-transactions">All Transactions</option>
                             <option value="entertainment">Entertainment</option>
                             <option value="bills">Bills</option>
@@ -68,88 +68,109 @@
         </li>
 
         <li class="table-row transactions-row">
-            <span class="transaction-avatar-group text-value">
-                <img class="transaction-avatar" src="/public/image/emma-richardson.jpg" alt="Emma Richardson" width="40"
-                    height="40" />Emma Richardson</span>
-            <span class="text-label">General</span>
-            <time class="text-label">19 Aug 2024</time>
-            <span class="text-value text-green">+$75.50</span>
+        
+            <img class="transaction-avatar" src="/public/image/emma-richardson.jpg" alt="Emma Richardson" width="32"
+                height="32" />
+        
+            <span class="transaction-name text-value">
+                Emma Richardson
+            </span>
+        
+            <span class="transaction-category text-label">
+                General
+            </span>
+        
+            <time class="transaction-date text-label">
+                19 Aug 2024
+            </time>
+        
+            <span class="transaction-amount text-value text-green">
+                +$75.50
+            </span>
+        
+        </li>
+
+      <li class="table-row transactions-row">
+        <img class="transaction-avatar" src="/public/image/savory-bites-bistro.jpg" alt="Savory Bites Bistro Logo" width="32"
+            height="32" />
+            <span class="transaction-name text-value">
+               Savory Bites Bistro</span>
+            <span class="transaction-category text-label">Dining Out</span>
+            <time class="transaction-date text-label">19 Aug 2024</time>
+            <span class="transaction-amount text-value">-$55.50</span>
         </li>
 
         <li class="table-row transactions-row">
-            <span class="transaction-avatar-group text-value">
-                <img class="transaction-avatar" src="/public/image/savory-bites-bistro.jpg" alt="Savory Bites Bistro Logo" width="40"
-                    height="40" />Savory Bites Bistro</span>
-            <span class="text-label">Dining Out</span>
-            <time class="text-label">19 Aug 2024</time>
-            <span class="text-value">-$55.50</span>
+            <img class="transaction-avatar" src="/public/image/daniel-carter.jpg" alt="Daniel Carter" width="32" height="32" />
+            <span class="transaction-name text-value">
+                Daniel Carter</span>
+            <span class="transaction-category text-label">General</span>
+            <time class="transaction-date text-label">18 Aug 2024</time>
+            <span class="transaction-amount text-value">- $42.30</span>
         </li>
 
         <li class="table-row transactions-row">
-            <span class="transaction-avatar-group text-value">
-                <img class="transaction-avatar" src="/public/image/daniel-carter.jpg" alt="Daniel Carter" width="40" height="40" />Daniel Carter</span>
-            <span class="text-label">General</span>
-            <time class="text-label">18 Aug 2024</time>
-            <span class="text-value">- $42.30</span>
+            <img class="transaction-avatar" src="/public/image/sun-park.jpg" alt="Sun Park" width="32" height="32" />
+            <span class="transaction-name text-value">
+                Sun Park</span>
+            <span class="transaction-category text-label">General</span>
+            <time class="transaction-date text-label">17 Aug 2024</time>
+            <span class="transaction-amount text-value text-green">+ $120.00</span>
         </li>
 
         <li class="table-row transactions-row">
-            <span class="transaction-avatar-group text-value">
-                <img class="transaction-avatar" src="/public/image/sun-park.jpg" alt="Sun Park" width="40"
-                    height="40" />Sun Park</span>
-            <span class="text-label">General</span>
-            <time class="text-label">17 Aug 2024</time>
-            <span class="text-value text-green">+ $120.00</span>
+            <img class="transaction-avatar" src="/public/image/urban-services-hub.jpg" alt="Urban Services Hub Logo" width="32" height="32" />
+            <span class="transaction-name text-value">
+              Urban Services Hub</span>
+            <span class="transaction-category text-label">General</span>
+            <time class="transaction-date text-label">17 Aug 2024</time>
+            <span class="transaction-amount text-value">-$65.00</span>
         </li>
 
         <li class="table-row transactions-row">
-            <span class="transaction-avatar-group text-value">
-                <img class="transaction-avatar" src="/public/image/urban-services-hub.jpg" alt="Urban Services Hub Logo" width="40" height="40" />Urban Services Hub</span>
-            <span class="text-label">General</span>
-            <time class="text-label">17 Aug 2024</time>
-            <span class="text-value">-$65.00</span>
+            <img class="transaction-avatar" src="/public/image/liam-hughes.jpg" alt="Liam Hughes" width="32" height="32" />
+            <span class="transaction-name text-value">
+                Liam Hughes</span>
+            <span class="transaction-category text-label">Groceries</span>
+            <time class="transaction-date text-label">15 Aug 2024</time>
+            <span class="transaction-amount text-value text-green">+$65.75</span>
         </li>
 
         <li class="table-row transactions-row">
-            <span class="transaction-avatar-group text-value">
-                <img class="transaction-avatar" src="/public/image/liam-hughes.jpg" alt="Liam Hughes" width="40"
-                    height="40" />Liam Hughes</span>
-            <span class="text-label">Groceries</span>
-            <time class="text-label">15 Aug 2024</time>
-            <span class="text-value text-green">+$65.75</span>
+            <img class="transaction-avatar" src="/public/image/lily-ramirez.jpg" alt="Lily Ramirez" width="32" height="32" />
+            <span class="transaction-name text-value">
+               Lily Ramirez</span>
+            <span class="transaction-category text-label">General</span>
+            <time class="transaction-date text-label">14 Aug 2024</time>
+            <span class="transaction-amount text-value text-green">+$50.00</span>
         </li>
 
         <li class="table-row transactions-row">
-            <span class="transaction-avatar-group text-value">
-                <img class="transaction-avatar" src="/public/image/lily-ramirez.jpg" alt="Lily Ramirez" width="40" height="40" />Lily Ramirez</span>
-            <span class="text-label">General</span>
-            <time class="text-label">14 Aug 2024</time>
-            <span class="text-value text-green">+$50.00</span>
+            <img class="transaction-avatar" src="/public/image/ethan-clark.jpg" alt="Ethan Clark" width="32" height="32" />
+            <span class="transaction-name text-value">
+                Ethan Clark</span>
+            <span class="transaction-category text-label">Dining Out</span>
+            <time class="transaction-date text-label">13 Aug 2024</time>
+            <span class="transaction-amount text-value">-$32.50</span>
         </li>
 
         <li class="table-row transactions-row">
-            <span class="transaction-avatar-group text-value">
-                <img class="transaction-avatar" src="/public/image/ethan-clark.jpg" alt="Ethan Clark" width="40" height="40" />Ethan Clark</span>
-            <span class="text-label">Dining Out</span>
-            <time class="text-label">13 Aug 2024</time>
-            <span class="text-value">-$32.50</span>
+            <img class="transaction-avatar" src="/public/image/james-thompson.jpg" alt="James Thompson" width="32" height="32" />
+            <span class="transaction-name text-value">
+                James Thompson</span>
+            <span class="transaction-category text-label">Entertainment</span>
+            <time class="transaction-date text-label">11 Aug 2024</time>
+            <span class="transaction-amount text-value">-$5.00</span>
         </li>
 
         <li class="table-row transactions-row">
-            <span class="transaction-avatar-group text-value">
-                <img class="transaction-avatar" src="/public/image/james-thompson.jpg" alt="James Thompson" width="40" height="40" />James Thompson</span>
-            <span class="text-label">Entertainment</span>
-            <time class="text-label">11 Aug 2024</time>
-            <span class="text-value">-$5.00</span>
-        </li>
-
-        <li class="table-row transactions-row">
-            <span class="transaction-avatar-group text-value">
-                <img class="transaction-avatar" src="/public/image/pixel-playground.jpg" alt="Pixel Playground Logo" width="40"
-                    height="40" />Pixel Playground</span>
-            <span class="text-label">Entertainment</span>
-            <time class="text-label">11 Aug 2024</time>
-            <span class="text-value">-$10.00</span>
+            <img class="transaction-avatar" src="/public/image/pixel-playground.jpg" alt="Pixel Playground Logo" width="32"
+                height="32" />
+            <span class="transaction-name text-value">
+                Pixel Playground</span>
+            <span class="transaction-category text-label">Entertainment</span>
+            <time class="transaction-date text-label">11 Aug 2024</time>
+            <span class="transaction-amount text-value">-$10.00</span>
         </li>
         
     </ul>
