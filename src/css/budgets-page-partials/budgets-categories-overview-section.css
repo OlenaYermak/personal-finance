@@ -1,6 +1,4 @@
-/* .budgets-section{
-    max-width: 608px;
-} */
+
 @media screen and (max-width: 767px) {
     .avatar {
 display: none;
