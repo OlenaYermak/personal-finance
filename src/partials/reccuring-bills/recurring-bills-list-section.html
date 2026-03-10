@@ -1,17 +1,22 @@
 <section class="section">
     <div class="section-controls">
 
-        <div class="flex justify-between">
+        <div class="rec-bill-filter-search-wrap flex justify-between">
             <label class="search">
-                <input type="text" class="search-input text-caption" placeholder="Search bills"
+                <input type="text" class="rec-bill-search search-input text-caption" placeholder="Search bills"
                     aria-label="Search bills" />
                 <svg class="search-icon">
                     <use href="/public/icons.svg#icon-search"></use>
                 </svg>
             </label>
 
+        <button class="icon-btn mobil-only" aria-label="Sort transactions">
+            <svg class="control-icon">
+                <use href="/public/icons.svg#icon-sort-mobile"></use>
+            </svg>
+        </button>
         
-                <label class="filter-group">
+                <label class="rec-bill-filter filter-group">
                     <span class="text-caption">Sort by:</span>
                     <select class="filter-select text-caption" name="sort">
                         <option value="date-desc">Latest</option>

@@ -1,4 +1,6 @@
-
+.rec-bills-section{
+    height: 100%;
+}
 
 .icon-rec-bills{
     fill: var(--color-white);

@@ -1,14 +1,13 @@
-/* .rec-bills-list-section{
-    max-width: 699px;
-} */
-
-
-
+.rec-bill-search{
+    padding: 12px 52px 12px 20px;
+}
 .rec-bills-transactions-table-head,
 .rec-bills-transactions-row {
     grid-template-columns: 3.19fr 1.2fr 1fr;
     
 }
+
+
 
 .date-icon-wrap{
     display: inline-flex;
@@ -32,3 +31,16 @@
     fill: var(--color-red);
 }
 
+@media screen and (max-width: 767px){
+.rec-bill-filter{
+    display: none;
+}
+.rec-bill-filter-search-wrap{
+    gap: 24px;
+    align-items: center;
+}
+}
+
+@media screen and (min-width: 768px){
+    
+}

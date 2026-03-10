@@ -10,10 +10,15 @@
     gap: 24px;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width:768px) and (max-width:1439px) {
+    .recurring-col-left {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media screen and (min-width: 1440px){
 .recurring-grid {
-        grid-template-columns: 1fr 2fr;
-        gap: 24px;
-        /* align-items: start; */
+        grid-template-columns: 337px 1fr;
     }
 }
