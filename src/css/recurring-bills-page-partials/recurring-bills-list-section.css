@@ -1,12 +1,27 @@
 .rec-bill-search{
     padding: 12px 52px 12px 20px;
 }
-.rec-bills-transactions-table-head,
+
+
+
 .rec-bills-transactions-row {
-    grid-template-columns: 3.19fr 1.2fr 1fr;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto;
+    row-gap: 8px;
     
 }
 
+.rec-bill-recipient {
+    grid-area: 1 / 1;
+}
+
+.rec-bill-period {
+    grid-area: 2 / 1;
+}
+
+.rec-bill-amount {
+    grid-area: 2 / 2;
+}
 
 
 .date-icon-wrap{
@@ -39,8 +54,28 @@
     gap: 24px;
     align-items: center;
 }
+
+.rec-bills-transactions-table-head{
+    display: none;
+}
 }
 
 @media screen and (min-width: 768px){
+    .mobile-only {
+            display: none;
+        }
+
+                .rec-bills-transactions-table-head,
+                .rec-bills-transactions-row {
+                    grid-template-columns: 3.19fr 1.2fr 1fr;
     
+                }
+
+                                .rec-bill-recipient,
+                .rec-bill-period,
+                
+                                .rec-bill-amount {
+                                    grid-area: auto;
+                                 
+}
 }

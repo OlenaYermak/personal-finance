@@ -86,9 +86,7 @@ body{
 
 
     
-.mobile-only {
-        display: block;
-    }
+
     
 
 
@@ -114,5 +112,9 @@ body{
         .card {
             padding: 24px;
         }
+
+                /* .mobile-only {
+                    display: none;
+                } */
 }
 /* ==========TABLET STYLES end========== */
